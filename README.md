@@ -1,3 +1,3 @@
 # dynamic_loss
 
-Code will soon be released here.
+We are reorganizing the code, and we expect to release it around November to December this year.
