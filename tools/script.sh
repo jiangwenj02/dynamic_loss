@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=8 python tools/test_robust.py configs/diseased/resnet50_diseased.py work_dirs/resnet50_diseased/latest.pth --metrics accuracy f1_score recall precision f2_score support
+CUDA_VISIBLE_DEVICES=0 python tools/test_robust.py configs/diseased/resnet50_diseased.py work_dirs/resnet50_diseased/latest.pth --metrics accuracy f1_score recall precision f2_score support --show-dir /data0/zzhang/tmp/heatmap/
